@@ -24,6 +24,6 @@ urlpatterns = [
     path('about/', todo_views.about, name='about'),
     path('delete/<list_id>', todo_views.delete, name='delete'),
     path('strike/<list_id>', todo_views.strike, name='strike'),
-    path('unstrike/<list_id>', todo_views.strike, name='unstrike')
+    path('unstrike/<list_id>', todo_views.unstrike, name='unstrike')
 
 ]

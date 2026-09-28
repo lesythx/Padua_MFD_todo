@@ -6,6 +6,3 @@ class List(models.Model):
 
     def __str__(self): #returns the string value
         return self.item
-
-
-# Create your models here.
